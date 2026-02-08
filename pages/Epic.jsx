@@ -86,7 +86,7 @@ const Epic = () => {
 
         {/* ================= SPONSORS ================= */}
         <div className="partner-section">
-          <h2>Sponsors & Co-Powered</h2>
+          <h2>Co-Powered By</h2>
           <div className="partner-grid">
             <div className="partner-card">
               <img src={sponsorLogo} alt="Alactic Inc" />
