@@ -100,13 +100,13 @@ function Navbar() {
           >
             Timeline
           </span>
-
+<a href="/team">
           <span
-            onClick={() => handleNavClick("team")}
             className="nav-link"
-          >
+            >
             Team
           </span>
+            </a>
 
           <span
             onClick={() => handleNavClick("profile")}

@@ -7,6 +7,7 @@ import Timeline from './Timeline';
 import Profile from './Profile';
 import About from './About';
 import Epic from './Epic';
+import Location from './Location';
 import img500 from '../images/500.png';
 import img501 from '../images/501.png';
 import img200 from '../images/200.png';
@@ -176,10 +177,11 @@ function Front() {
 <section id="epic">
   <Epic />
 </section>
-
-<section id="team">
-  <Team />
+<section id="location">
+  <Location />
 </section>
+
+
 
       </div>
     </div>

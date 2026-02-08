@@ -9,6 +9,8 @@ import Epic from "../pages/Epic";
 import AboutPage from "../pages/AboutPage";
 import Navbar from "../pages/Navbar";
 import Profilez from "../pages/Profilez";
+import Footer from "../pages/Footer";
+
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -31,7 +33,7 @@ function App() {
         <Route path="/profilez" element={<Profilez />} />
 
       </Routes>
-
+<Footer />
     </BrowserRouter>
   );
 }
