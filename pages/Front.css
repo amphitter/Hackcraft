@@ -210,7 +210,7 @@ img {
 
 .event-date {
   font-size: clamp(0.8rem, 1.8vw, 1.1rem);
-  color: #e7c96b;
+  color: #b16be7;
 }
 
 
@@ -263,7 +263,7 @@ img {
 .time-value {
   font-size: clamp(1.4rem, 5vw, 2rem);
   font-weight: 400;
-  color: #f0d27a;
+  color: #b77af0;
   font-family: 'Audiowide', cursive;
   letter-spacing: 2px;
 }
