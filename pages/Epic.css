@@ -18,10 +18,7 @@
 
 /* ================= SECTION & BACKGROUND ================= */
 .epic-section {
-  background: 
-    radial-gradient(ellipse at 20% 20%, rgba(0, 255, 255, 0.03) 0%, transparent 40%),
-    radial-gradient(ellipse at 80% 80%, rgba(231, 201, 107, 0.03) 0%, transparent 40%),
-    linear-gradient(180deg, var(--darker) 0%, var(--dark) 100%);
+  
   padding: 4rem 1rem;
   position: relative;
   overflow: hidden;
