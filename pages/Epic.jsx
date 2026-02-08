@@ -77,7 +77,7 @@ const Epic = () => {
 
         {/* ================= ORGANIZER ================= */}
         <div className="org-section">
-          <h2>Major Organizer</h2>
+          <h2>Organizer</h2>
           <div className="org-card">
             <img src={organiserLogo} alt="GITM" />
             <span>Global Institute of Technology & Management</span>
