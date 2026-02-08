@@ -1,0 +1,181 @@
+/* ================= GLOBAL ================= */
+
+.aboutpage-section {
+  position: relative;
+  min-height: 100vh;
+  padding: 80px 20px;
+  background: #06060c;
+  overflow: hidden;
+  color: white;
+}
+
+.cyber-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(0,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,255,255,0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  opacity: 0.2;
+}
+
+.aboutpage-container {
+  max-width: 1300px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+
+
+/* ================= HERO ================= */
+
+.aboutpage-hero {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 60px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+
+/* Left */
+
+.aboutpage-left {
+  text-align: center;
+}
+
+.aboutpage-logo {
+    display: inline;
+width: 450px;
+}
+
+.aboutpage-left h1 {
+  font-family: "Audiowide";
+  letter-spacing: 3px;
+  font-size: 2.8rem;
+}
+
+.tagline {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.tagline span {
+  color: #e7c96b;
+}
+
+.college {
+  margin-top: 8px;
+  color: rgba(255,255,255,0.7);
+}
+
+
+/* Right */
+
+.aboutpage-right h2 {
+  color: #e7c96b;
+  margin-bottom: 20px;
+  font-family: "Orbitron";
+}
+
+.aboutpage-right p {
+  margin-bottom: 18px;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.85);
+}
+
+
+/* ================= GLIMPSES ================= */
+
+.aboutpage-glimpses {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.aboutpage-glimpses h2 {
+  margin-bottom: 40px;
+  color: #e7c96b;
+  font-family: "Orbitron";
+}
+
+.glimpse-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 25px;
+}
+
+.glimpse-grid img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.glimpse-grid img:hover {
+  transform: scale(1.05);
+}
+
+
+/* ================= CONTACT ================= */
+
+.aboutpage-contact {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.aboutpage-contact h2 {
+  margin-bottom: 40px;
+  color: #e7c96b;
+  font-family: "Orbitron";
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  gap: 30px;
+}
+
+.contact-card {
+  background: rgba(20,20,30,0.7);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+}
+
+.contact-card h3 {
+  margin-bottom: 5px;
+  color: #ff8fbf;
+}
+
+.contact-card p {
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  color: rgba(255,255,255,0.7);
+}
+
+.contact-card span {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.9rem;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+
+  .aboutpage-hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .aboutpage-right {
+    text-align: center;
+  }
+
+}

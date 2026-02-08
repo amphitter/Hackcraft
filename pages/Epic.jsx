@@ -75,27 +75,43 @@ const Epic = () => {
           </div>
         </div>
 
-        {/* ================= ORGANIZER ================= */}
-        <div className="org-section">
-          <h2>Organizer</h2>
-          <div className="org-card">
-            <img src={organiserLogo} alt="GITM" />
-            <span>Global Institute of Technology & Management</span>
-          </div>
-        </div>
+{/* ================= ORGANIZER + SPONSOR ================= */}
+<div className="org-co-wrapper">
 
-        {/* ================= SPONSORS ================= */}
-        <div className="partner-section">
+  {/* Organizer */}
+  <div className="org-section">
+    <h2>Organizer</h2>
+
+    <div className="org-card">
+      <img src={organiserLogo} alt="GITM" />
+      <span>Global Institute of Technology & Management</span>
+    </div>
+  </div>
+
+
+  {/* Sponsor */}
+  <div className="co-section">
+    <h2>Co-Powered By</h2>
+
+    <div className="co-card">
+      <img src={sponsorLogo} alt="Alactic Inc" />
+      <span>Alactic Inc. (Co-Powered)</span>
+    </div>
+  </div>
+
+</div>
+
+       {/* <div className="partner-section">
           <h2>Co-Powered By</h2>
           <div className="partner-grid">
             <div className="partner-card">
               <img src={sponsorLogo} alt="Alactic Inc" />
               <span>Alactic Inc. (Co-Powered)</span>
             </div>
-            {/* Additional sponsors can be added here */}
+             Additional sponsors can be added here 
           </div>
         </div>
-
+*/}
         {/* ================= COMMUNITY ================= */}
         <div className="partner-section">
           <h2>Community Partners</h2>

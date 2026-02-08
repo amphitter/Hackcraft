@@ -190,7 +190,8 @@ img {
 }
 
 .main-logo-img {
-  width: min(500px, 90%);
+  margin-top: 4rem;
+  width: min(400px, 90%);
   height: auto;
   display: inline;
 }
