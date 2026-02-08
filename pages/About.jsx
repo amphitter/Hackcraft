@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./About.css";
 // Import your hackcraft image - update the path as needed
-import hackcraftImage from "../images/hackcraft-logo.png";
+import hackcraftImage from "../images/hackcraft.png";
 
 const About = () => {
   const [showMore, setShowMore] = useState(false);
