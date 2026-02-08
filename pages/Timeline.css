@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Rajdhani:wght@400;500&display=swap');
 
 :root {
-  --primary: #00ffff;
+  --primary: #8e63dd;
   --bg: #050505;
   --card: #0d0d0d;
   --text: #ffffff;
@@ -28,7 +28,7 @@
   font-size: 2.3rem;
   letter-spacing: 4px;
   color: var(--text);
-  text-shadow: 0 0 12px rgba(0,255,255,0.4);
+  text-shadow: 0 0 12px rgba(81, 0, 255, 0.4);
 }
 
 .timeline-subtitle {

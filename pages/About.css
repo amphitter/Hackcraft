@@ -30,13 +30,13 @@
 }
 
 .highlight {
-  color: #00ffff;
+  color: #8e63dd;
 }
 
 .about-subtitle {
   font-family: "Orbitron", sans-serif;
   font-size: 1.1rem;
-  color: #00ffff;
+  color: #8e63dd;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-top: 0.5rem;
@@ -90,7 +90,7 @@
   display: block;
   font-family: "Audiowide", sans-serif;
   font-size: 2rem;
-  color: #00ffff;
+  color: #8e63dd;
   font-weight: 700;
   margin-bottom: 0.3rem;
 }
@@ -105,7 +105,7 @@
 
 /* Read More Button */
 .read-more-btn {
-  background: #00ffff;
+  background: #8e63dd;
   color: #050505;
   border: none;
   padding: 0.9rem 2rem;
@@ -178,7 +178,7 @@
 }
 
 .feature-card:hover {
-  border-color: #00ffff;
+  border-color: #8e63dd;
   transform: translateY(-5px);
 }
 
