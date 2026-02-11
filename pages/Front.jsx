@@ -69,7 +69,7 @@ function CountdownTimer({ targetDate }) {
 
 function Front() {
   return (
-    <div className="front-wrapper">
+    <div id='home' className="front-wrapper">
       <div className="front-container">
 
         {/* Background */}

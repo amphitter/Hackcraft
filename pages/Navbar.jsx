@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate, Link } from "react-router-dom";
 import "./Navbar.css";
 
 import gitmLogo from "../images/GITM_Logo.jpg";
@@ -35,20 +35,22 @@ function Navbar() {
 
     if (location.pathname === path) {
 
-      // Already on page → scroll
       scrollToSection(id);
 
     } else {
 
-      // Go to home first
       navigate(path);
 
-      // Wait for render then scroll
       setTimeout(() => {
         scrollToSection(id);
       }, 300);
     }
   };
+
+
+  // Register Link
+  const registerLink =
+    "https://unstop.com/o/sHkeOP0?lb=K9UelnkJ&utm_medium=Share&utm_source=gitmgur42672&utm_campaign=Online_coding_challenge";
 
 
   return (
@@ -100,13 +102,11 @@ function Navbar() {
           >
             Timeline
           </span>
-<a href="/team">
-          <span
-            className="nav-link"
-            >
+
+          {/* Team Page Routing */}
+          <Link to="/team" className="nav-link">
             Team
-          </span>
-            </a>
+          </Link>
 
           <span
             onClick={() => handleNavClick("profile")}
@@ -121,9 +121,15 @@ function Navbar() {
         {/* ===== RIGHT AREA ===== */}
         <div className="nav-right">
 
-          <button className="sign-in-btn desktop-btn">
+          {/* Register Button */}
+          <a
+            href={registerLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="sign-in-btn desktop-btn"
+          >
             Register Now
-          </button>
+          </a>
 
 
           {/* Hamburger */}
@@ -152,13 +158,28 @@ function Navbar() {
 
         <span onClick={() => handleNavClick("timeline")}>Timeline</span>
 
-        <span onClick={() => handleNavClick("team")}>Team</span>
+        {/* Team Routing Mobile */}
+        <Link
+          to="/team"
+          onClick={() => setMenuOpen(false)}
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
+          Team
+        </Link>
 
         <span onClick={() => handleNavClick("profile")}>Themes</span>
 
-        <button className="sign-in-btn mobile-btn">
-          Coming Soon
-        </button>
+
+        {/* Mobile Register */}
+        <a
+          href={registerLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="sign-in-btn mobile-btn"
+          onClick={() => setMenuOpen(false)}
+        >
+          Register Now
+        </a>
 
       </div>
 
