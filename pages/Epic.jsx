@@ -88,8 +88,7 @@ const Epic = () => {
     </div>
   </div>
 
-
-  {/* Sponsor */}
+  {/* Sponsor 
   <div className="co-section">
     <h2>Co-Powered By</h2>
 
@@ -98,7 +97,7 @@ const Epic = () => {
       <span>Alactic Inc. (Co-Powered)</span>
     </div>
   </div>
-
+*/}
 </div>
 
        {/* <div className="partner-section">

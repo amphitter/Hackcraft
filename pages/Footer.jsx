@@ -62,9 +62,11 @@ const Footer = () => {
           <span className="footer-divider" />
 
           <img src={sankalpLogo} alt="Team Sankalp" />
+          
+           {/* 
           <span className="footer-divider" />
 
-          <img src={alacticLogo} alt="Alactic" />
+          <img src={alacticLogo} alt="Alactic" /> */}
 
         </div>
 
