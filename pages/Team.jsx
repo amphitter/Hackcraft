@@ -13,6 +13,7 @@ import img101 from "../images/160.jpeg";
 import img102 from "../images/161.jpeg";
 import img103 from "../images/162.jpeg";
 import img104 from "../images/163.jpeg";
+import img105 from "../images/164.jpeg";
 
 const teamData = [
   {
