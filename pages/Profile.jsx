@@ -139,10 +139,7 @@ className={`exhibitor-card ${exhibitor.id === 6 ? 'special-track' : ''} ${hovere
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="card-border">
-                <div className="border-corner corner-tl"></div>
-                <div className="border-corner corner-tr"></div>
-                <div className="border-corner corner-bl"></div>
-                <div className="border-corner corner-br"></div>
+   
               </div>
 
               <div className="card-glow"></div>
@@ -189,10 +186,7 @@ className={`exhibitor-card ${exhibitor.id === 6 ? 'special-track' : ''} ${hovere
             >
 
               <div className="popup-border">
-                <div className="popup-corner popup-corner-tl"></div>
-                <div className="popup-corner popup-corner-tr"></div>
-                <div className="popup-corner popup-corner-bl"></div>
-                <div className="popup-corner popup-corner-br"></div>
+      
               </div>
 
               <button className="popup-close" onClick={closePopup}>
