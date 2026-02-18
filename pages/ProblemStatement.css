@@ -1,0 +1,97 @@
+.problem-page {
+  padding: 4rem 2rem;
+  background: #000;
+  min-height: 100vh;
+  color: white;
+}
+
+.problem-main-title {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.3em;
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 3rem;
+  text-shadow: 0 0 15px #b16be7;
+}
+
+/* ===== Special Info Boxes ===== */
+
+.special-info-box {
+  border: 1px solid #ff00cc;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background: rgba(255, 0, 204, 0.08);
+  box-shadow: 0 0 20px rgba(255, 0, 204, 0.3);
+}
+
+.web3-box {
+  border-color: #9500ff;
+  background: rgba(149, 0, 255, 0.08);
+  box-shadow: 0 0 20px rgba(149, 0, 255, 0.4);
+}
+
+.bonus-text {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/* ===== Track Container ===== */
+
+.track-container {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border: 1px solid rgba(177, 107, 231, 0.3);
+  background: rgba(177, 107, 231, 0.05);
+}
+
+.sponsor-track {
+  border: 2px solid #9500ff;
+  box-shadow: 0 0 30px rgba(149, 0, 255, 0.4);
+}
+
+.track-title {
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px #b16be7;
+}
+
+.track-description {
+  margin-bottom: 1.5rem;
+  color: #aaa;
+}
+
+/* ===== Problem Grid ===== */
+
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.problem-card {
+  padding: 1rem;
+  border: 1px solid rgba(177, 107, 231, 0.5);
+  background: rgba(177, 107, 231, 0.1);
+  font-family: 'Share Tech Mono', monospace;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.problem-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(177, 107, 231, 0.7);
+}
+
+/* ===== Special Highlights ===== */
+
+.agi-highlight {
+  border-color: #ff00cc;
+  background: rgba(255, 0, 204, 0.15);
+  box-shadow: 0 0 15px rgba(255, 0, 204, 0.5);
+}
+
+.web3-highlight {
+  border-color: #9500ff;
+  background: rgba(149, 0, 255, 0.15);
+  box-shadow: 0 0 15px rgba(149, 0, 255, 0.6);
+}

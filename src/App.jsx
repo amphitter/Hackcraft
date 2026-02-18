@@ -11,6 +11,7 @@ import Navbar from "../pages/Navbar";
 import Profilez from "../pages/Profilez";
 import Footer from "../pages/Footer";
 import ChatBot from "../src/components/Chatbot";
+import ProblemStatements from "../pages/ProblemStatement";
 
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -33,6 +34,7 @@ function App() {
         <Route path="/epic" element={<Epic />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/profilez" element={<Profilez />} />
+        <Route path="/problem-statements" element={<ProblemStatements />} />
 
       </Routes>
 <Footer />
