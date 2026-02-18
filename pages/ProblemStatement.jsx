@@ -75,11 +75,7 @@ const tracks = [
     description:
       "Decentralized transparency and blockchain-based innovation systems powered by Shardeum.",
     problems: [
-      "W3P01: Decentralized Academic Credential Verification",
-      "W3P02: Transparent Agricultural Produce Tracking",
-      "W3P03: Community-Based Decentralized Energy Trading",
-      "W3P04: Tamper-Proof Public Grievance Systems",
-      "W3P05 (Alactic AGI Integrated): Decentralized Verification of AI Training Data Provenance"
+      "W3P01: Comming Soon!",
     ]
   }
 ];
