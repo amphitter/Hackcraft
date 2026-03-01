@@ -13,6 +13,9 @@ import nxgen from "../images/Community_logo/nxgen.png";
 import rk from "../images/Community_logo/rk.png";
 import sccse from "../images/Community_logo/sccse.png";
 import thess from "../images/Community_logo/thess.png";
+import ei from "../images/Community_logo/ei.png";
+import bb from "../images/Community_logo/bb.png";
+import shardeum from '../images/Shardeum.png'; // 🔥 SHARDEUM SPECIAL TRACK
 
 
 
@@ -114,21 +117,27 @@ const Epic = () => {
 </div>
 
        <div className="partner-section">
-          <h2>Powered By</h2>
+          <h2>Partnered With</h2>
           <div className="partner-grid">
             <div className="partner-card">
               <img src={UnstopLogo} alt="Alactic Inc" />
               <span>Unstop (Powered)</span>
             </div>
-
-           </div>
-           <br></br> 
-          <h2>Co-Powered By</h2>
-          <div className="partner-grid">
             <div className="partner-card">
               <img src={sponsorLogo} alt="Alactic Inc" />
               <span>Alactic Inc. (Co-Powered)</span>
             </div>
+          {/*   Additional sponsors can be added here  */}
+          </div>
+        </div>
+       <div className="partner-section">
+          <h2>Supported By</h2>
+          <div className="partner-grid">
+            <div className="partner-card">
+              <img src={shardeum} alt="shardeum" />
+              <span>Shardeum</span>
+            </div>
+            
           {/*   Additional sponsors can be added here  */}
           </div>
         </div>
@@ -297,26 +306,43 @@ const Epic = () => {
               />
               <span>The Student Spot</span>
             </a>
+            <a
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              className="partner-card"
+            >
+              <img
+                src={ei}
+                alt="ei"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = "https://via.placeholder.com/120x70/0d0d0d/00ffff?text=Team+Eklavya";
+                }}
+              />
+              <span>Events Info</span>
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              className="partner-card"
+            >
+              <img
+                src={bb}
+                alt="ei"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = "https://via.placeholder.com/120x70/0d0d0d/00ffff?text=Team+Eklavya";
+                }}
+              />
+              <span>Builder Base</span>
+            </a>
             {/* Additional community partners can be added here */}
           </div>
         </div>
 
-        {/* ================= CTA ================= */}
-        <div className="cta-section">
-          <button
-            className="cta-btn primary"
-            onClick={() => openPopup("sponsor")}
-          >
-            Become a Sponsor
-          </button>
-
-          <button
-            className="cta-btn"
-            onClick={() => openPopup("partner")}
-          >
-            Become a Community Partner
-          </button>
-        </div>
+    
 
         {/* ================= POPUP ================= */}
         {popupType && (
