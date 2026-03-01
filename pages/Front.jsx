@@ -108,12 +108,20 @@ function Front() {
             <div className="action-buttons-section">
 
               <a
-                href="https://unstop.com/o/sHkeOP0?lb=K9UelnkJ&utm_medium=Share&utm_source=gitmgur42672&utm_campaign=Online_coding_challenge"
+                href="/problem-statements.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="box-btn"
               >
-                Register Now
+                Problem Statements
+              </a>
+              <a
+                href="/duality.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="box-btn"
+              >
+                Duality Problem Statements
               </a>
 
               <a

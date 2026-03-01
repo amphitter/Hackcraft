@@ -269,14 +269,6 @@ const AnnouncementPopup = () => {
           The official <strong>HackCraft 3.0</strong> problem statements are out!
           Pick your domain and start building.
         </p>
-
-        <button className="hc-toast-btn" onClick={handleCTA}>
-          VIEW PROBLEM STATEMENTS
-        </button>
-
-        <button className="hc-toast-dismiss" onClick={handleClose}>
-          Maybe later
-        </button>
       </div>
     </>
   );
