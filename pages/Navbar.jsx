@@ -72,9 +72,9 @@ function Navbar() {
 
           <img src={sankalpLogo} alt="Team Sankalp" className="nav-logo sankalp-logo" />
 
-          {/*  <span className="logo-divider" />
+           <span className="logo-divider" />
 
-         <img src={alacticLogo} alt="Alactic" className="nav-logo alactic-logo" />*/} 
+         <img src={alacticLogo} alt="Alactic" className="nav-logo alactic-logo" />
 
         </div>
 

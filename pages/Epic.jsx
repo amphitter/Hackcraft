@@ -4,6 +4,17 @@ import "./Epic.css";
 import organiserLogo from "../images/500.png";
 import sponsorLogo from "../images/501.png";
 import hackshastra from "../images/Hackshastra.png"
+import UnstopLogo from "../images/Unstop.png";
+import ae from "../images/Community_logo/ae.png";
+import cr from "../images/Community_logo/cr.png";
+import kt from "../images/Community_logo/kt.png";
+import lh from "../images/Community_logo/lh.png";
+import nxgen from "../images/Community_logo/nxgen.png";
+import rk from "../images/Community_logo/rk.png";
+import sccse from "../images/Community_logo/sccse.png";
+import thess from "../images/Community_logo/thess.png";
+
+
 
 const Epic = () => {
   const [popupType, setPopupType] = useState(null);
@@ -89,6 +100,7 @@ const Epic = () => {
     </div>
   </div>
 
+
   {/* Sponsor 
   <div className="co-section">
     <h2>Co-Powered By</h2>
@@ -101,17 +113,26 @@ const Epic = () => {
 */}
 </div>
 
-       {/* <div className="partner-section">
+       <div className="partner-section">
+          <h2>Powered By</h2>
+          <div className="partner-grid">
+            <div className="partner-card">
+              <img src={UnstopLogo} alt="Alactic Inc" />
+              <span>Unstop (Powered)</span>
+            </div>
+
+           </div>
+           <br></br> 
           <h2>Co-Powered By</h2>
           <div className="partner-grid">
             <div className="partner-card">
               <img src={sponsorLogo} alt="Alactic Inc" />
               <span>Alactic Inc. (Co-Powered)</span>
             </div>
-             Additional sponsors can be added here 
+          {/*   Additional sponsors can be added here  */}
           </div>
         </div>
-*/}
+
         {/* ================= COMMUNITY ================= */}
         <div className="partner-section">
           <h2>Community Partners</h2>
@@ -147,6 +168,134 @@ const Epic = () => {
                 }}
               />
               <span>HackShastra</span>
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              className="partner-card"
+            >
+              <img
+                src={ae}
+                alt="AE"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = "https://via.placeholder.com/120x70/0d0d0d/00ffff?text=Team+Eklavya";
+                }}
+              />
+              <span>Ajinava Edge</span>
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              className="partner-card"
+            >
+              <img
+                src={cr}
+                alt="cr"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = "https://via.placeholder.com/120x70/0d0d0d/00ffff?text=Team+Eklavya";
+                }}
+              />
+              <span>Code Ranger</span>
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              className="partner-card"
+            >
+              <img
+                src={kt}
+                alt="kt"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = "https://via.placeholder.com/120x70/0d0d0d/00ffff?text=Team+Eklavya";
+                }}
+              />
+              <span>Knowvy Technologies</span>
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              className="partner-card"
+            >
+              <img
+                src={lh}
+                alt="lh"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = "https://via.placeholder.com/120x70/0d0d0d/00ffff?text=Team+Eklavya";
+                }}
+              />
+              <span>LearnHub</span>
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              className="partner-card"
+            >
+              <img
+                src={nxgen}
+                alt="nexgen"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = "https://via.placeholder.com/120x70/0d0d0d/00ffff?text=Team+Eklavya";
+                }}
+              />
+              <span>NextGen Tech Connect</span>
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              className="partner-card"
+            >
+              <img
+                src={rk}
+                alt="rk"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = "https://via.placeholder.com/120x70/0d0d0d/00ffff?text=Team+Eklavya";
+                }}
+              />
+              <span>React Kolkata</span>
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              className="partner-card"
+            >
+              <img
+                src={sccse}
+                alt="sccse"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = "https://via.placeholder.com/120x70/0d0d0d/00ffff?text=Team+Eklavya";
+                }}
+              />
+              <span>SCCSE</span>
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              className="partner-card"
+            >
+              <img
+                src={thess}
+                alt="THESS"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = "https://via.placeholder.com/120x70/0d0d0d/00ffff?text=Team+Eklavya";
+                }}
+              />
+              <span>The Student Spot</span>
             </a>
             {/* Additional community partners can be added here */}
           </div>
