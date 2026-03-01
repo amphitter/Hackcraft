@@ -132,32 +132,7 @@ const About = () => {
             </div>
           </div>
 
-          {/* Top Features */}
-          <div className="features-section">
-            <h3 className="section-title">Why Join HACKCRAFT?</h3>
-            <div className="features-grid">
-              {topFeatures.map((item, i) => (
-                <div key={i} className="feature-card">
-                  <div className="feature-icon">{item.icon}</div>
-                  <h4 className="feature-title">{item.title}</h4>
-                  <p className="feature-description">{item.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Bottom Features */}
-          <div className="features-section">
-            <h3 className="section-title">What Makes Us Special?</h3>
-            <div className="features-grid bottom-grid">
-              {bottomFeatures.map((item, i) => (
-                <div key={i} className="feature-card">
-                  <h4 className="feature-title">{item.title}</h4>
-                  <p className="feature-description">{item.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+        
         </div>
       </section>
 
