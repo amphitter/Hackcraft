@@ -117,12 +117,12 @@ function Front() {
               </a>
 
               <a
-                href="/Hackcraft 3.0 Welcome Participants.pdf"
+                href="/HACKCRAFT_PPT_TEMPLATE.pptx"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="box-btn"
               >
-                Welcome Kit
+                PPT Template
               </a>
 
               <a
