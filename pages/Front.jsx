@@ -125,7 +125,7 @@ function Front() {
               </a>
 
               <a
-                href="/HACKCRAFT_PPT_TEMPLATE.pptx"
+                href="/HACKCRAFT_PPT_TEMPLATE.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="box-btn"
