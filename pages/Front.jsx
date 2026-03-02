@@ -125,7 +125,7 @@ function Front() {
               </a>
 
               <a
-                href="/HACKCRAFT_PPT_TEMPLATE.pdf"
+                href="https://www.canva.com/design/DAHCHXv6uB0/1PMLLpAYHkecC-gHC3en6w/view?utm_content=DAHCHXv6uB0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="box-btn"
