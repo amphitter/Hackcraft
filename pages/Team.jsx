@@ -23,7 +23,7 @@ const teamData = [
   { id: 5, name: "Mohit", role: "Web & Creative", image: img4, linkedin: "https://linkedin.com/in/mohit-grover-99b799336/" },
   { id: 6, name: "Hritik Singh", role: "Web Manager", image: img8, linkedin: "https://linkedin.com/in/hritik-kumar-singh-85a721291/" },
   { id: 7, name: "Pritika", role: "Media Lead", image: img7, linkedin: "https://linkedin.com/in/pritika0908/" },
-  { id: 8, name: "Tamanna", role: "Media Lead", image: img100, linkedin: "#" },
+  //{ id: 8, name: "Tamanna", role: "Media Lead", image: img100, linkedin: "#" },
   { id: 9, name: "Ansh", role: "Tech Lead", image: img101, linkedin: "https://linkedin.com/in/ansh-kumar-95a84a28a/" },
   { id: 10, name: "Divya", role: "Media Lead", image: img102, linkedin: "https://linkedin.com/in/divya-801387297/" },
   { id: 11, name: "Vishnu", role: "Tech Lead", image: img103, linkedin: "https://linkedin.com/in/kumarvishnu2912/" },
